@@ -1,4 +1,4 @@
-# A-Dual-Stream-UNet-with-Channel-Spatial-Attention-Interaction-for-Change-Detection
+# (DCSI-UNet) A-Dual-Stream-UNet-with-Channel-Spatial-Attention-Interaction-for-Change-Detection
 English：A Dual Stream UNet with Channel Spatial Attention Interaction for Change Detection
 This repository contains the official implementation of the paper "A Dual Stream UNet with Channel Spatial Attention Interaction for Change Detection". The proposed method enhances change detection performance by leveraging a dual-stream UNet architecture combined with interactive channel-spatial attention mechanisms, effectively capturing both global context and local detail changes between bi-temporal images.
 Key Features
