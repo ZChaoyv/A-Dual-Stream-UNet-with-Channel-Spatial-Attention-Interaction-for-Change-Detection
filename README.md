@@ -10,6 +10,8 @@ Usage
 Refer to the README.md for environment setup, dataset preparation, training, and inference instructions.
 If you find this work useful, please cite our paper.
 
+## 0. 📚 I've been quite busy recently, but I'll update the code promptly once I'm free.
+
 ## 1. 🌱 Environment setup
 The experiments are consistently conducted on the workstation with AMD EPYC 7262 8-Core CPU and GPU of NVIDIA RTX 3090 with 24G of video memory, Python 3.9.20, PyTorch 2.4.1, CUDA 11.8, cuDNN 9.1.0. All library dependencies are detailed in requirements.txt.
 
