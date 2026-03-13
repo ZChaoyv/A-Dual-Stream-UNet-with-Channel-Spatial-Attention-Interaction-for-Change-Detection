@@ -1,4 +1,4 @@
-# 😊 DCSI_UNet: Dual Cross-modal Similarity Interactive U-Net for Change Detection
+# 😊 DCSI_UNet: A Dual-Stream UNet With Parallel Channel–Spatial Interaction and Aggregation for Change Detection
 
 [![Paper](https://ieeexplore.ieee.org/document/11299285)]
 
@@ -195,7 +195,7 @@ If you use this code in your research, please cite our paper:
 
 # 中文版本 / Chinese Version
 
-## 😊 DCSI_UNet: 双交叉模态相似性交互 U-Net 用于变化检测
+## 😊 DCSI_UNet: A Dual-Stream UNet With Parallel Channel–Spatial Interaction and Aggregation for Change Detection
 
 [![论文](https://ieeexplore.ieee.org/document/11299285)]
 
