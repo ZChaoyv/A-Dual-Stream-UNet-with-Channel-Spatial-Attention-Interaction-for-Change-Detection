@@ -1,6 +1,6 @@
 # A Dual-Stream UNet With Parallel Channel–Spatial Interaction and Aggregation for Change Detection（DCSI_UNet）
 
-[![😊 Paper](https://ieeexplore.ieee.org/document/11299285)]
+[😊 Paper](https://ieeexplore.ieee.org/document/11299285)
 
 This repository contains the official implementation of **DCSI_UNet**, a novel architecture for change detection in remote sensing images. The model leverages dual cross-modal similarity interactions to effectively capture multi-scale features and improve change detection accuracy.
 
@@ -197,7 +197,7 @@ If you use this code in your research, please cite our paper:
 
 ## A Dual-Stream UNet With Parallel Channel–Spatial Interaction and Aggregation for Change Detection（DCSI_UNet）
 
-[![😊 论文](https://ieeexplore.ieee.org/document/11299285)]
+[😊 论文](https://ieeexplore.ieee.org/document/11299285)
 
 该仓库包含 **DCSI_UNet** 的官方实现，这是一种用于遥感图像变化检测的新型架构。该模型利用双交叉模态相似性交互来有效捕获多尺度特征并提高变化检测准确性。
 
