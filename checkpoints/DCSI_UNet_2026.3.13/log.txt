@@ -1,0 +1,295 @@
+================ (Fri Mar 13 15:36:19 2026) ================
+gpu_ids: [0, 1] project_name: DCSI_UNet_2026.3.13 checkpoint_root: checkpoints num_workers: 8 dataset: CDDataset data_name: LEVIR-CD-256-list batch_size: 48 split: train split_val: val img_size: 256 n_class: 2 net_G: DCSI_UNet loss: ce optimizer: sgd lr: 0.01 max_epochs: 200 lr_policy: linear lr_decay_iters: 200 beta1: 0.5 beta2: 0.999 checkpoint_dir: checkpoints/DCSI_UNet_2026.3.13 vis_dir: vis/DCSI_UNet_2026.3.13 lr: 0.0100000
+================ (Fri Mar 13 15:38:02 2026) ================
+gpu_ids: [0, 1] project_name: DCSI_UNet_2026.3.13 checkpoint_root: checkpoints num_workers: 8 dataset: CDDataset data_name: LEVIR-CD-256-list batch_size: 48 split: train split_val: val img_size: 256 n_class: 2 net_G: DCSI_UNet loss: ce optimizer: sgd lr: 0.01 max_epochs: 200 lr_policy: linear lr_decay_iters: 200 beta1: 0.5 beta2: 0.999 checkpoint_dir: checkpoints/DCSI_UNet_2026.3.13 vis_dir: vis/DCSI_UNet_2026.3.13 lr: 0.0100000
+================ (Fri Mar 13 15:38:15 2026) ================
+gpu_ids: [0, 1] project_name: DCSI_UNet_2026.3.13 checkpoint_root: checkpoints num_workers: 8 dataset: CDDataset data_name: LEVIR-CD-256-list batch_size: 48 split: train split_val: val img_size: 256 n_class: 2 net_G: DCSI_UNet loss: ce optimizer: sgd lr: 0.01 max_epochs: 200 lr_policy: linear lr_decay_iters: 200 beta1: 0.5 beta2: 0.999 checkpoint_dir: checkpoints/DCSI_UNet_2026.3.13 vis_dir: vis/DCSI_UNet_2026.3.13 lr: 0.0100000
+================ (Fri Mar 13 15:38:36 2026) ================
+gpu_ids: [0, 1] project_name: DCSI_UNet_2026.3.13 checkpoint_root: checkpoints num_workers: 8 dataset: CDDataset data_name: LEVIR-CD-256-list batch_size: 48 split: train split_val: val img_size: 256 n_class: 2 net_G: DCSI_UNet loss: ce optimizer: sgd lr: 0.01 max_epochs: 200 lr_policy: linear lr_decay_iters: 200 beta1: 0.5 beta2: 0.999 checkpoint_dir: checkpoints/DCSI_UNet_2026.3.13 vis_dir: vis/DCSI_UNet_2026.3.13 lr: 0.0100000
+Is_training: True. Epoch 0 / 199, epoch_mF1= 0.48979
+acc: 0.95056 miou: 0.47651 mf1: 0.48979 mrecall: 0.49946 mprecision: 0.49355 iou_0: 0.95056 iou_1: 0.00247 F1_0: 0.97465 F1_1: 0.00493 precision_0: 0.95397 precision_1: 0.03314 recall_0: 0.99626 recall_1: 0.00266 kc: 0.43659 
+
+epoch time: 51.083 
+Begin evaluation val...
+Is_training: False. Epoch 0 / 199, epoch_mF1= 0.48928
+acc: 0.95803 miou: 0.47902 mf1: 0.48928 mrecall: 0.50000 mprecision: 0.47902 iou_0: 0.95803 iou_1: 0.00000 F1_0: 0.97857 F1_1: 0.00000 precision_0: 0.95803 precision_1: 0.00000 recall_0: 1.00000 recall_1: 0.00000 kc: 0.47810 
+
+Lastest model updated. Epoch_acc=0.4893, Historical_best_acc=0.0000 (at epoch 0)
+
+**********Best model updated!
+
+lr: 0.0099502
+Is_training: True. Epoch 1 / 199, epoch_mF1= 0.52665
+acc: 0.95570 miou: 0.49756 mf1: 0.52665 mrecall: 0.51973 mprecision: 0.91887 iou_0: 0.95562 iou_1: 0.03950 F1_0: 0.97731 F1_1: 0.07600 precision_0: 0.95585 precision_1: 0.88188 recall_0: 0.99974 recall_1: 0.03971 kc: 0.49398 
+
+epoch time: 50.736 
+Begin evaluation val...
+Is_training: False. Epoch 1 / 199, epoch_mF1= 0.79444
+acc: 0.97486 miou: 0.70242 mf1: 0.79444 mrecall: 0.72530 mprecision: 0.93674 iou_0: 0.97437 iou_1: 0.43047 F1_0: 0.98702 F1_1: 0.60186 precision_0: 0.97654 precision_1: 0.89693 recall_0: 0.99772 recall_1: 0.45288 kc: 0.68729 
+
+Lastest model updated. Epoch_acc=0.7944, Historical_best_acc=0.4893 (at epoch 0)
+
+**********Best model updated!
+
+lr: 0.0099005
+Is_training: True. Epoch 2 / 199, epoch_mF1= 0.83560
+acc: 0.97560 miou: 0.74729 mf1: 0.83560 mrecall: 0.78433 mprecision: 0.91314 iou_0: 0.97493 iou_1: 0.51964 F1_0: 0.98731 F1_1: 0.68390 precision_0: 0.97975 precision_1: 0.84652 recall_0: 0.99498 recall_1: 0.57368 kc: 0.72204 
+
+epoch time: 50.182 
+Begin evaluation val...
+Is_training: False. Epoch 2 / 199, epoch_mF1= 0.80362
+acc: 0.97525 miou: 0.71203 mf1: 0.80362 mrecall: 0.73900 mprecision: 0.92475 iou_0: 0.97474 iou_1: 0.44931 F1_0: 0.98721 F1_1: 0.62003 precision_0: 0.97771 precision_1: 0.87179 recall_0: 0.99690 recall_1: 0.48110 kc: 0.69226 
+
+Lastest model updated. Epoch_acc=0.8036, Historical_best_acc=0.7944 (at epoch 1)
+
+**********Best model updated!
+
+lr: 0.0098507
+================ (Fri Mar 13 15:41:53 2026) ================
+gpu_ids: [0, 1] project_name: DCSI_UNet_2026.3.13 checkpoint_root: checkpoints num_workers: 8 dataset: CDDataset data_name: LEVIR-CD-256-list batch_size: 48 split: train split_val: val img_size: 256 n_class: 2 net_G: DCSI_UNet loss: ce optimizer: sgd lr: 0.01 max_epochs: 200 lr_policy: linear lr_decay_iters: 200 beta1: 0.5 beta2: 0.999 checkpoint_dir: checkpoints/DCSI_UNet_2026.3.13 vis_dir: vis/DCSI_UNet_2026.3.13 loading last checkpoint...
+Epoch_to_start = 3, Historical_best_acc = 0.7944 (at epoch 1)
+
+lr: 0.0098507
+================ (Fri Mar 13 15:42:21 2026) ================
+gpu_ids: [0, 1] project_name: DCSI_UNet_2026.3.13 checkpoint_root: checkpoints num_workers: 8 dataset: CDDataset data_name: LEVIR-CD-256-list batch_size: 48 split: train split_val: val img_size: 256 n_class: 2 net_G: DCSI_UNet loss: ce optimizer: sgd lr: 0.01 max_epochs: 200 lr_policy: linear lr_decay_iters: 200 beta1: 0.5 beta2: 0.999 checkpoint_dir: checkpoints/DCSI_UNet_2026.3.13 vis_dir: vis/DCSI_UNet_2026.3.13 loading last checkpoint...
+Epoch_to_start = 3, Historical_best_acc = 0.7944 (at epoch 1)
+
+lr: 0.0098507
+================ (Fri Mar 13 15:42:37 2026) ================
+gpu_ids: [0, 1] project_name: DCSI_UNet_2026.3.13 checkpoint_root: checkpoints num_workers: 8 dataset: CDDataset data_name: LEVIR-CD-256-list batch_size: 48 split: train split_val: val img_size: 256 n_class: 2 net_G: DCSI_UNet loss: ce optimizer: sgd lr: 0.01 max_epochs: 200 lr_policy: linear lr_decay_iters: 200 beta1: 0.5 beta2: 0.999 checkpoint_dir: checkpoints/DCSI_UNet_2026.3.13 vis_dir: vis/DCSI_UNet_2026.3.13 loading last checkpoint...
+Epoch_to_start = 3, Historical_best_acc = 0.7944 (at epoch 1)
+
+lr: 0.0098507
+Is_training: True. Epoch 3 / 199, epoch_mF1= 0.86849
+acc: 0.97909 miou: 0.78786 mf1: 0.86849 mrecall: 0.83474 mprecision: 0.91085 kc: 0.73710 
+
+epoch time: 50.807 
+Begin evaluation val...
+Is_training: False. Epoch 3 / 199, epoch_mF1= 0.89263
+acc: 0.98356 miou: 0.82058 mf1: 0.89263 mrecall: 0.87379 mprecision: 0.91370 kc: 0.78529 
+
+Lastest model updated. Epoch_acc=0.8926, Historical_best_acc=0.7944 (at epoch 1)
+
+**********Best model updated!
+
+lr: 0.0098010
+================ (Fri Mar 13 15:44:38 2026) ================
+gpu_ids: [0, 1] project_name: DCSI_UNet_2026.3.13 checkpoint_root: checkpoints num_workers: 8 dataset: CDDataset data_name: LEVIR-CD-256-list batch_size: 48 split: train split_val: val img_size: 256 n_class: 2 net_G: DCSI_UNet loss: ce optimizer: sgd lr: 0.01 max_epochs: 200 lr_policy: linear lr_decay_iters: 200 beta1: 0.5 beta2: 0.999 checkpoint_dir: checkpoints/DCSI_UNet_2026.3.13 vis_dir: vis/DCSI_UNet_2026.3.13 loading last checkpoint...
+Epoch_to_start = 4, Historical_best_acc = 0.7944 (at epoch 1)
+
+lr: 0.0098010
+================ (Fri Mar 13 15:45:28 2026) ================
+gpu_ids: [0, 1] project_name: DCSI_UNet_2026.3.13 checkpoint_root: checkpoints num_workers: 8 dataset: CDDataset data_name: LEVIR-CD-256-list batch_size: 48 split: train split_val: val img_size: 256 n_class: 2 net_G: DCSI_UNet loss: ce optimizer: sgd lr: 0.01 max_epochs: 200 lr_policy: linear lr_decay_iters: 200 beta1: 0.5 beta2: 0.999 checkpoint_dir: checkpoints/DCSI_UNet_2026.3.13 vis_dir: vis/DCSI_UNet_2026.3.13 loading last checkpoint...
+Epoch_to_start = 4, Historical_best_acc = 0.7944 (at epoch 1)
+
+lr: 0.0098010
+================ (Fri Mar 13 15:54:49 2026) ================
+gpu_ids: [0, 1] project_name: DCSI_UNet_2026.3.13 checkpoint_root: checkpoints num_workers: 8 dataset: CDDataset data_name: LEVIR-CD-256-list batch_size: 48 split: train split_val: val img_size: 256 n_class: 2 net_G: DCSI_UNet loss: ce optimizer: sgd lr: 0.01 max_epochs: 200 lr_policy: linear lr_decay_iters: 200 beta1: 0.5 beta2: 0.999 checkpoint_dir: checkpoints/DCSI_UNet_2026.3.13 vis_dir: vis/DCSI_UNet_2026.3.13 loading last checkpoint...
+Epoch_to_start = 4, Historical_best_acc = 0.7944 (at epoch 1)
+
+lr: 0.0098010
+================ (Fri Mar 13 15:56:44 2026) ================
+gpu_ids: [0, 1] project_name: DCSI_UNet_2026.3.13 checkpoint_root: checkpoints num_workers: 8 dataset: CDDataset data_name: LEVIR-CD-256-list batch_size: 48 split: train split_val: val img_size: 256 n_class: 2 net_G: DCSI_UNet loss: ce optimizer: sgd lr: 0.01 max_epochs: 200 lr_policy: linear lr_decay_iters: 200 beta1: 0.5 beta2: 0.999 checkpoint_dir: checkpoints/DCSI_UNet_2026.3.13 vis_dir: vis/DCSI_UNet_2026.3.13 loading last checkpoint...
+Epoch_to_start = 4, Historical_best_acc = 0.7944 (at epoch 1)
+
+lr: 0.0098010
+Is_training: True. Epoch 4 / 199, epoch_mF1= 0.88921
+acc: 0.98177 miou: 0.81561 mf1: 0.88921 mrecall: 0.86584 mprecision: 0.91617 kc: 0.77846 
+
+epoch time: 51.456 
+Begin evaluation val...
+Is_training: False. Epoch 4 / 199, epoch_mF1= 0.87723
+acc: 0.97920 miou: 0.79918 mf1: 0.87723 mrecall: 0.89750 mprecision: 0.85914 kc: 0.75450 
+
+Lastest model updated. Epoch_acc=0.8772, Historical_best_acc=0.7944 (at epoch 1)
+
+**********Best model updated!
+
+lr: 0.0097512
+Is_training: True. Epoch 5 / 199, epoch_mF1= 0.89643
+acc: 0.98280 miou: 0.82571 mf1: 0.89643 mrecall: 0.87595 mprecision: 0.91956 kc: 0.79289 
+
+epoch time: 50.972 
+Begin evaluation val...
+Is_training: False. Epoch 5 / 199, epoch_mF1= 0.89821
+acc: 0.98397 miou: 0.82838 mf1: 0.89821 mrecall: 0.88995 mprecision: 0.90686 kc: 0.79642 
+
+Lastest model updated. Epoch_acc=0.8982, Historical_best_acc=0.8772 (at epoch 4)
+
+**********Best model updated!
+
+lr: 0.0097015
+Is_training: True. Epoch 6 / 199, epoch_mF1= 0.90555
+acc: 0.98414 miou: 0.83880 mf1: 0.90555 mrecall: 0.88882 mprecision: 0.92398 kc: 0.81112 
+
+epoch time: 51.477 
+Begin evaluation val...
+Is_training: False. Epoch 6 / 199, epoch_mF1= 0.91327
+acc: 0.98642 miou: 0.85032 mf1: 0.91327 mrecall: 0.90234 mprecision: 0.92487 kc: 0.82654 
+
+Lastest model updated. Epoch_acc=0.9133, Historical_best_acc=0.8982 (at epoch 5)
+
+**********Best model updated!
+
+lr: 0.0096517
+Is_training: True. Epoch 7 / 199, epoch_mF1= 0.90787
+acc: 0.98452 miou: 0.84219 mf1: 0.90787 mrecall: 0.89144 mprecision: 0.92591 kc: 0.81575 
+
+epoch time: 50.923 
+Begin evaluation val...
+Is_training: False. Epoch 7 / 199, epoch_mF1= 0.91461
+acc: 0.98627 miou: 0.85227 mf1: 0.91461 mrecall: 0.91447 mprecision: 0.91474 kc: 0.82921 
+
+Lastest model updated. Epoch_acc=0.9146, Historical_best_acc=0.9133 (at epoch 6)
+
+**********Best model updated!
+
+lr: 0.0096020
+Is_training: True. Epoch 8 / 199, epoch_mF1= 0.91481
+acc: 0.98561 miou: 0.85249 mf1: 0.91481 mrecall: 0.90012 mprecision: 0.93076 kc: 0.82964 
+
+epoch time: 49.564 
+Begin evaluation val...
+Is_training: False. Epoch 8 / 199, epoch_mF1= 0.91747
+acc: 0.98719 miou: 0.85664 mf1: 0.91747 mrecall: 0.90293 mprecision: 0.93322 kc: 0.83495 
+
+Lastest model updated. Epoch_acc=0.9175, Historical_best_acc=0.9146 (at epoch 7)
+
+**********Best model updated!
+
+lr: 0.0095522
+Is_training: True. Epoch 9 / 199, epoch_mF1= 0.92069
+acc: 0.98654 miou: 0.86137 mf1: 0.92069 mrecall: 0.90761 mprecision: 0.93473 kc: 0.84138 
+
+epoch time: 49.518 
+Begin evaluation val...
+Is_training: False. Epoch 9 / 199, epoch_mF1= 0.91899
+acc: 0.98735 miou: 0.85894 mf1: 0.91899 mrecall: 0.90678 mprecision: 0.93205 kc: 0.83799 
+
+Lastest model updated. Epoch_acc=0.9190, Historical_best_acc=0.9175 (at epoch 8)
+
+**********Best model updated!
+
+lr: 0.0095025
+Is_training: True. Epoch 10 / 199, epoch_mF1= 0.92205
+acc: 0.98678 miou: 0.86346 mf1: 0.92205 mrecall: 0.90884 mprecision: 0.93625 kc: 0.84410 
+
+epoch time: 49.509 
+Begin evaluation val...
+Is_training: False. Epoch 10 / 199, epoch_mF1= 0.90984
+acc: 0.98444 miou: 0.84504 mf1: 0.90984 mrecall: 0.94007 mprecision: 0.88389 kc: 0.81973 
+
+Lastest model updated. Epoch_acc=0.9098, Historical_best_acc=0.9190 (at epoch 9)
+
+lr: 0.0094527
+Is_training: True. Epoch 11 / 199, epoch_mF1= 0.92180
+acc: 0.98672 miou: 0.86308 mf1: 0.92180 mrecall: 0.90917 mprecision: 0.93533 kc: 0.84361 
+
+epoch time: 49.532 
+Begin evaluation val...
+Is_training: False. Epoch 11 / 199, epoch_mF1= 0.92616
+acc: 0.98819 miou: 0.86990 mf1: 0.92616 mrecall: 0.92383 mprecision: 0.92852 kc: 0.85232 
+
+Lastest model updated. Epoch_acc=0.9262, Historical_best_acc=0.9190 (at epoch 9)
+
+**********Best model updated!
+
+lr: 0.0094030
+Is_training: True. Epoch 12 / 199, epoch_mF1= 0.92619
+acc: 0.98747 miou: 0.86987 mf1: 0.92619 mrecall: 0.91327 mprecision: 0.94006 kc: 0.85239 
+
+epoch time: 49.570 
+Begin evaluation val...
+Is_training: False. Epoch 12 / 199, epoch_mF1= 0.91319
+acc: 0.98573 miou: 0.85011 mf1: 0.91319 mrecall: 0.92233 mprecision: 0.90447 kc: 0.82638 
+
+Lastest model updated. Epoch_acc=0.9132, Historical_best_acc=0.9262 (at epoch 11)
+
+lr: 0.0093532
+Is_training: True. Epoch 13 / 199, epoch_mF1= 0.92799
+acc: 0.98774 miou: 0.87266 mf1: 0.92799 mrecall: 0.91604 mprecision: 0.94073 kc: 0.85598 
+
+epoch time: 49.580 
+Begin evaluation val...
+Is_training: False. Epoch 13 / 199, epoch_mF1= 0.89613
+acc: 0.98467 miou: 0.82559 mf1: 0.89613 mrecall: 0.86381 mprecision: 0.93551 kc: 0.79233 
+
+Lastest model updated. Epoch_acc=0.8961, Historical_best_acc=0.9262 (at epoch 11)
+
+lr: 0.0093035
+Is_training: True. Epoch 14 / 199, epoch_mF1= 0.92350
+acc: 0.98700 miou: 0.86569 mf1: 0.92350 mrecall: 0.91093 mprecision: 0.93695 kc: 0.84700 
+
+epoch time: 49.529 
+Begin evaluation val...
+Is_training: False. Epoch 14 / 199, epoch_mF1= 0.91059
+acc: 0.98502 miou: 0.84621 mf1: 0.91059 mrecall: 0.92780 mprecision: 0.89484 kc: 0.82119 
+
+Lastest model updated. Epoch_acc=0.9106, Historical_best_acc=0.9262 (at epoch 11)
+
+lr: 0.0092537
+Is_training: True. Epoch 15 / 199, epoch_mF1= 0.92967
+acc: 0.98804 miou: 0.87531 mf1: 0.92967 mrecall: 0.91743 mprecision: 0.94275 kc: 0.85935 
+
+epoch time: 49.589 
+Begin evaluation val...
+Is_training: False. Epoch 15 / 199, epoch_mF1= 0.92065
+acc: 0.98787 miou: 0.86149 mf1: 0.92065 mrecall: 0.89994 mprecision: 0.94387 kc: 0.84132 
+
+Lastest model updated. Epoch_acc=0.9206, Historical_best_acc=0.9262 (at epoch 11)
+
+lr: 0.0092040
+Is_training: True. Epoch 16 / 199, epoch_mF1= 0.93182
+acc: 0.98837 miou: 0.87869 mf1: 0.93182 mrecall: 0.92053 mprecision: 0.94381 kc: 0.86364 
+
+epoch time: 49.523 
+Begin evaluation val...
+Is_training: False. Epoch 16 / 199, epoch_mF1= 0.93002
+acc: 0.98926 miou: 0.87598 mf1: 0.93002 mrecall: 0.91043 mprecision: 0.95177 kc: 0.86004 
+
+Lastest model updated. Epoch_acc=0.9300, Historical_best_acc=0.9262 (at epoch 11)
+
+**********Best model updated!
+
+lr: 0.0091542
+Is_training: True. Epoch 17 / 199, epoch_mF1= 0.93424
+acc: 0.98877 miou: 0.88254 mf1: 0.93424 mrecall: 0.92337 mprecision: 0.94576 kc: 0.86849 
+
+epoch time: 49.570 
+Begin evaluation val...
+Is_training: False. Epoch 17 / 199, epoch_mF1= 0.93243
+acc: 0.98906 miou: 0.87972 mf1: 0.93243 mrecall: 0.93535 mprecision: 0.92955 kc: 0.86485 
+
+Lastest model updated. Epoch_acc=0.9324, Historical_best_acc=0.9300 (at epoch 16)
+
+**********Best model updated!
+
+lr: 0.0091045
+Is_training: True. Epoch 18 / 199, epoch_mF1= 0.93651
+acc: 0.98915 miou: 0.88618 mf1: 0.93651 mrecall: 0.92577 mprecision: 0.94787 kc: 0.87302 
+
+epoch time: 49.925 
+Begin evaluation val...
+Is_training: False. Epoch 18 / 199, epoch_mF1= 0.93261
+acc: 0.98936 miou: 0.88004 mf1: 0.93261 mrecall: 0.92479 mprecision: 0.94076 kc: 0.86523 
+
+Lastest model updated. Epoch_acc=0.9326, Historical_best_acc=0.9324 (at epoch 17)
+
+**********Best model updated!
+
+lr: 0.0090547
+================ (Fri Mar 13 16:51:54 2026) ================
+gpu_ids: [0, 1] project_name: DCSI_UNet_2026.3.13 checkpoint_root: checkpoints num_workers: 8 dataset: CDDataset data_name: LEVIR-CD-256-list batch_size: 48 split: train split_val: val img_size: 256 n_class: 2 net_G: DCSI_UNet loss: ce optimizer: sgd lr: 0.01 max_epochs: 200 lr_policy: linear lr_decay_iters: 200 beta1: 0.5 beta2: 0.999 checkpoint_dir: checkpoints/DCSI_UNet_2026.3.13 vis_dir: vis/DCSI_UNet_2026.3.13 loading last checkpoint...
+Epoch_to_start = 19, Historical_best_acc = 0.9324 (at epoch 17)
+
+lr: 0.0090547
+================ (Fri Mar 13 16:52:46 2026) ================
+gpu_ids: [0, 1] project_name: DCSI_UNet_2026.3.13 checkpoint_root: checkpoints num_workers: 8 dataset: CDDataset data_name: LEVIR-CD-256-list batch_size: 48 split: train split_val: val img_size: 256 n_class: 2 net_G: DCSI_UNet loss: ce optimizer: sgd lr: 0.01 max_epochs: 200 lr_policy: linear lr_decay_iters: 200 beta1: 0.5 beta2: 0.999 checkpoint_dir: checkpoints/DCSI_UNet_2026.3.13 vis_dir: vis/DCSI_UNet_2026.3.13 loading last checkpoint...
+Epoch_to_start = 19, Historical_best_acc = 0.9324 (at epoch 17)
+
+lr: 0.0090547
+================ (Fri Mar 13 16:54:31 2026) ================
+gpu_ids: [0, 1] project_name: DCSI_UNet_2026.3.13 checkpoint_root: checkpoints num_workers: 8 dataset: CDDataset data_name: LEVIR-CD-256-list batch_size: 48 split: train split_val: val img_size: 256 n_class: 2 net_G: DCSI_UNet loss: ce optimizer: sgd lr: 0.01 max_epochs: 200 lr_policy: linear lr_decay_iters: 200 beta1: 0.5 beta2: 0.999 checkpoint_dir: checkpoints/DCSI_UNet_2026.3.13 vis_dir: vis/DCSI_UNet_2026.3.13 loading last checkpoint...
+Epoch_to_start = 19, Historical_best_acc = 0.9324 (at epoch 17)
+
+lr: 0.0090547
