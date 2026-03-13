@@ -39,12 +39,17 @@ class Logger(object):
             message += '%s: %.7f ' % (k, v)
         self.write(message)
 
-    def write_dict_str(self, dict):
-        """Log configuration dictionaries as strings / 以字符串形式记录配置参数字典"""
-        message = ''
-        for k, v in dict.items():
-            message += '%s: %s ' % (k, v)
-        self.write(message)
+    def write_dict_str(self, dict, title='Configuration'):
+        """Log configuration dictionaries in a readable multi-line format.
+
+        Example output:
+          Configuration:
+            gpu_ids: [0, 1]
+            batch_size: 48
+        """
+        self.write(f"{title}:\n")
+        for k in sorted(dict.keys()):
+            self.write(f"  {k}: {dict[k]}\n")
 
     def flush(self):
         self.terminal.flush()
