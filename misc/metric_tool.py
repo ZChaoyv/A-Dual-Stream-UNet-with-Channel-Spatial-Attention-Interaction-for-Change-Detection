@@ -146,6 +146,12 @@ def cm2score(confusion_matrix):
     # Pack scores into a dictionary / 将评分打包入字典
     score_dict = {'acc': acc, 'miou': mean_iu, 'mf1':mean_F1, 'mrecall':mean_recall, 'mprecision':mean_precision}
     score_dict.update({'kc': kc})
+    score_dict.update({
+        'iou_0': iu[0], 'iou_1': iu[1],
+        'F1_0': F1[0], 'F1_1': F1[1],
+        'precision_0': precision[0], 'precision_1': precision[1],
+        'recall_0': recall[0], 'recall_1': recall[1]
+    })
     return score_dict
 
 

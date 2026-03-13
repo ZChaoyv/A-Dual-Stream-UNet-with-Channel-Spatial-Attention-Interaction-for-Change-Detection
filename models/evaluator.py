@@ -164,7 +164,19 @@ class CDEvaluator():
         np.save(os.path.join(self.checkpoint_dir, 'scores_dict.npy'), scores_dict)
         self.epoch_acc = scores_dict['mf1']
 
-        message = ''
-        for k, v in scores_dict.items():
-            message += '%s: %.5f ' % (k, v)
-        self.logger.write('%s\n' % message)
+        # Separate average and per-class metrics / 分离平均指标和类别指标
+        avg_keys = ['acc', 'miou', 'mf1', 'mrecall', 'mprecision', 'kc']
+        class_keys = ['iou_0', 'iou_1', 'F1_0', 'F1_1', 'precision_0', 'precision_1', 'recall_0', 'recall_1']
+        
+        message_avg = ''
+        for k in avg_keys:
+            if k in scores_dict:
+                message_avg += '%s: %.5f ' % (k, scores_dict[k])
+        
+        message_class = ''
+        for k in class_keys:
+            if k in scores_dict:
+                message_class += '%s: %.5f ' % (k, scores_dict[k])
+        
+        self.logger.write('%s\n' % message_avg)
+        self.logger.write('%s\n' % message_class)
